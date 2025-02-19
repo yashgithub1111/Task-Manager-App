@@ -1,0 +1,140 @@
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar Styles */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+}
+
+/* Container Styling */
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Button Styling */
+.buttons, .task-buttons {
+  text-align: center;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Input and Textarea Styling */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Task List Styling */
+#taskList {
+  margin-top: 20px;
+}
+
+#taskList div {
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#taskList button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#taskList button:hover {
+  background-color: #e53935;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
