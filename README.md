@@ -35,6 +35,19 @@ Before you begin, make sure you have the following installed:
 
 ```bash
 git clone https://github.com/yashgithub1111/Task-Manager-App.git
+```
+
+### 2. Navigate to backend
+
+```bash
 cd Task-Manager-App
 cd backend
+```
+
+### 3. Start Server
+
+```bash
 npm start
+```
+
+### 4. Open index.html in frontend
