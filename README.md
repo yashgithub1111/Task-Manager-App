@@ -34,5 +34,7 @@ Before you begin, make sure you have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/task-manager-app.git
-cd task-manager-app
+git clone https://github.com/yashgithub1111/Task-Manager-App.git
+cd Task-Manager-App
+cd backend
+npm start
